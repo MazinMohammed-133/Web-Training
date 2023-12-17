@@ -1,0 +1,23 @@
+hr
+{
+    padding: 1%;
+    background-color: azure;
+}
+.PageTitle
+{
+    text-align: center;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    border-radius: 15px 50px 30px 5px;
+}
+.Pink
+{
+    background-color: #fbc2eb;
+}
+#White_Green
+{
+    background-color: rgb(128, 220, 128);
+}
+.div1
+{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Cheat Sheet</title>
+    <link rel="stylesheet" href="TrainingDoc.css" />
+  </head>
+  <body>
+    <div class="PageTitle"><h2>HTML Cheat Sheet</h2></div>
+    <hr />
+    <!-- HTML Structure & Shortcut
+
+        COMMENTS are IMPORTANT use COMMENTS
+        Alt + Shift + Arrows = Repeating Elements
+        CTRL + / = Commenting
+        (Lorem) for long text
+        (&nbsp;) Spaces in Web Page
+        (&lt; , &gt;) Little than (<) , Greater than (>) 
+        (&copy;) Copyright Mark ©️ 
+        (&trade;) Trade mark sign ™️
+        (&sum; "∑" - &frac14; "¼" - &infin; "∞")
+        ALT + CTRL + Shift = Make the cursor long and select more lines
+        ALT + CTRL = Make the cursor long and select more lines (Without shorting)
+        P.Mazin#Mazin (Press Enter) = <p class="Mazin" id="Mazin"></p>
+        P.Mazin (Press Enter) = <h1 class="Mazin"></h1>
+        P#Mazin (Press Enter) = <p id="Mazin"></p>
+    -->
+    <!-- Codes Behavior
+        
+        <br> A new line
+        <hr> A Separator Line
+        <em> Italian Font
+        <pdi> RTL & LTR Converting (used when typing arabic)
+            <Toggle>
+                <details>
+                    <summary>Open This</summary>
+                    <p>Mazin Mohammed</p>
+                    <p>Mohammed Mosa</p>
+                </details>
+    -->
+
+    <!-- ================ Headings ================ -->
+    <h1><u>Headings</u></h1>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <hr />
+
+    <!-- ================ Paragraphs ================ -->
+    <h1><u>Paragraphs</u></h1>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <hr />
+
+    <!-- ================ Blockquote ================ -->
+    <h1><u>Block Quote</u></h1>
+    <blockquote cite="https://www.example.com/source">
+      This is a quote
+    </blockquote>
+    <hr />
+
+    <!-- ================ Forms ================ -->
+    <h1><u>Forms</u></h1>
+    <form action="/submit" method="post" id="MyForm">
+      <label for="fname">First Name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Last Name:</label><br />
+      <input type="text" id="lname" name="lname" /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <hr />
+
+    <!-- ================ IFRAME ================ -->
+    <h1><u>IFrame</u></h1>
+    <iframe src="https://www.example.com" title="Example Frame"></iframe>
+    <hr />
+
+    <!-- ============= Links (a) ============= -->
+    <h1><u>Links</u></h1>
+    <!-- href (Attribute) -->
+    <a href="https://www.google.com">Google => Absolute Link</a>
+    <hr />
+    <a href="about.html">About Us => Relative Link</a>
+    <hr />
+
+    <!-- target (Attribute) -->
+    <a href="https://www.google.com" target="_blank"
+      >Link to Google => _blank Link (New Tab)</a
+    >
+    <hr />
+    <a href="https://www.google.com" target="_self"
+      >Link to Google => _self Link (self Tab)</a
+    >
+    <hr />
+
+    <!-- Title (Attribute) -->
+    <a href="{Materials}/Icon.png" title="An Image will be shown"
+      >Picture => Title Att.</a
+    >
+    <hr />
+
+    <!-- Email (Attribute) -->
+    <a href="mailto:mazinmondy@gmail.com">Mazin's Mail => Mail Link</a>
+    <hr />
+
+    <!-- Phone (Attribute) -->
+    <a href="tel:+201146610025">Mazin's phone => Phone Link</a>
+    <hr />
+
+    <!-- Internal Link (Attribute) -->
+    <!--Link that goes to another place in the same page-->
+    <a href="#sec">Go To Section 1 => ID Attribute</a>
+    <hr />
+
+    <!-- External Link (Attribute) -->
+    <!--Link that goes to another site or file-->
+    <a href="https://www.w3schools.com/tags/tag_a.asp">W3School => External</a>
+    <hr />
+
+    <!-- Downloadable File (Attribute) -->
+    <a href="image.jpg" download>Downloadable file Link (Image)</a>
+    <a href="pdf.pdf" download>Downloadable file Link (PDF)</a>
+    <hr />
+
+    <!-- ======================== Paths ======================== -->
+    <h1><u>Paths</u></h1>
+    <a href="../Git & GitHub/Get_to_Git_cheatsheet.pdf"
+      >Exit Folder Example: Git cheatsheet PDF</a
+    >
+    <hr />
+
+    <!-- ======================== Images ======================== -->
+    <h1><u>Images</u></h1>
+
+    <!-- Simple Image -->
+    <img src="image.jpg" alt="Sample Image" />
+    <hr />
+
+    <!-- ======================== Buttons ======================== -->
+    <h1><u>Buttons</u></h1>
+    <!-- Button with a link -->
+    <button onclick="location.href='https:\\www.google.com'">
+      Click me! Go to Google
+    </button>
+    <hr />
+
+    <!-- Button without a link -->
+    <button onclick="alert('Hello World');return false;">
+      Click Me! Show Alert Message
+    </button>
+    <hr />
+
+    <!-- ======================== Lists ======================== -->
+    <h1><u>Lists</u></h1>
+
+    <!-- Unordered List (ul) -->
+    <ul>
+      <li>UnorderedList.Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <!-- Ordered List (ol) -->
+    <ol>
+      <li>OrderedList.Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+
+    <!-- Definition List (dl) -->
+    <dl>
+      <dt>DefinitionList.Item 1</dt>
+      <dd>It'sDescription.Description 1</dd>
+      <dt>Item 2</dt>
+      <dd>Description 2</dd>
+      <dt>Item 3</dt>
+      <dd>Description 3</dd>
+    </dl>
+    <hr />
+
+    <!-- ================ Tables ================ -->
+    <h1><u>Tables</u></h1>
+    <table>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+      </tr>
+      <tr>
+        <td>Row 1, Col 1</td>
+        <td>Row 1, Col 2</td>
+      </tr>
+      <tr>
+        <td>Row 2, Col 1</td>
+        <td>Row 2, Col 2</td>
+      </tr>
+    </table>
+    <hr />
+
+    <!-- ================ Classes & IDs ================ -->
+    <h1><u>Classes &amp; IDs</u></h1>
+    <p class="Pink">Hi There, it's me Mazin Mohammed</p>
+    <p id="White_Green">Hi There, it's me Mazin Mohammed</p>
+    <p>Hi There, it's me Mazin Mohammed</p>
+    <hr />
+
+    <!-- ================ DIVs ================ -->
+    <h1><u>DIVs &amp; Semantic Elements</u></h1>
+    <a href="D:\Projects & Works\Web Training\DIVs.html">DIVs Page</a>
+    <hr />
+    <!-- ================ Images ================ -->
+    <img src="/images/mazin.jpg" alt="Mazin Image" /><br />
+    <!-- ================ IGNORE ================ -->
+    <h1 id="sec">Hi There where i Receive the internal Link</h1>
+    <!--The receiver of internal Link-->
+    <p>This is The top of the page<a href="#">&uArr;</a></p>
+  </body>
+</html>
