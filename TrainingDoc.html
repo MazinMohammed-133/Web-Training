@@ -135,17 +135,28 @@
 
     <!-- ======================== Images ======================== -->
     <h1><u>Images</u></h1>
-
-    <!-- Simple Image -->
     <img
       src="Materials/Image (1).jpg"
       width="300"
       height="300"
+      loading="lazy"
       alt="Sample Image"
       title="Sample Image"
     />
     <hr />
-
+    <!-- ======================== Audio ======================== -->
+    <audio
+      src="../Web Training/Materials/Joel Sunny - Luminary.mp3"
+      controls
+      loop
+      muted
+    ></audio>
+    <p>
+      download Luminary from Here ☝️
+      <a href="../Web Training/Materials/Joel Sunny - Luminary.mp3" download >Downloadable</a
+      >
+    </p>
+    <hr />
     <!-- ======================== Buttons ======================== -->
     <h1><u>Buttons</u></h1>
     <!-- Button with a link -->
@@ -161,6 +172,7 @@
     <hr />
 
     <!-- ======================== Lists ======================== -->
+    <!-- Attributes : Type , reversed , start -->
     <h1><u>Lists</u></h1>
 
     <!-- Unordered List (ul) -->
@@ -189,20 +201,34 @@
     <hr />
 
     <!-- ================ Tables ================ -->
+    <!-- 
+    tr: Table Row
+    th: Table head
+    td: Table data
+   -->
     <h1><u>Tables</u></h1>
-    <table>
-      <tr>
-        <th>Header 1</th>
-        <th>Header 2</th>
-      </tr>
-      <tr>
-        <td>Row 1, Col 1</td>
-        <td>Row 1, Col 2</td>
-      </tr>
-      <tr>
-        <td>Row 2, Col 1</td>
-        <td>Row 2, Col 2</td>
-      </tr>
+    <table border="1" align="center" width = "700px" cellspacing = "30" cellpadding = "20">
+      <caption>Salaries</caption>
+      <thead>
+        <tr>
+          <th>Amr</th>
+          <th>Zeyad</th>
+          <th>Sara</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>3000</td>
+          <td>3000</td>
+          <td>4000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total</td>
+          <td>10000</td>
+        </tr>
+      </tfoot> 
     </table>
     <hr />
 
